@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","mappings":"AACAA,QAAQC,IADE","sources":["webpack://minireact/./src/index.ts"],"sourcesContent":["var age = 100;\nconsole.log(age);\n"],"names":["console","log"],"sourceRoot":""}
