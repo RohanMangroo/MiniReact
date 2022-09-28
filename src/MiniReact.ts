@@ -17,7 +17,7 @@ class MiniReact{
         return {type, props, children: processedChildren};
     }
 
-    private createTextElement(text: string){
+    private createTextElement(text: string): CreateTxtEleFunc{
         //Returning a function that returns type of MyElement
         return (): MyElement => { return {type: "TEXT_ELEMENT",props: {nodeValue: text}, children: []}};
     }
