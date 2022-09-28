@@ -1,7 +1,5 @@
-import MiniReact from "./MiniReact";
+import miniReact from "./MiniReact";
+import App from './App';
 
 const root = document.querySelector<HTMLElement>("#root");
-
-const miniReact = new MiniReact();
-const element = miniReact.createElement("h1", {class: "main"}, ["Hello World"]);
-miniReact.render(element, root);
+miniReact.render(App, root);
